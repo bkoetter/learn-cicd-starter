@@ -62,4 +62,3 @@ func TestGetAPIKey(t *testing.T) {
 func errMalformedHeader() error {
 	return errors.New("malformed authorization header")
 }
-
